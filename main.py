@@ -16,7 +16,7 @@ if not api_key:
     raise ValueError("LANGFLOW_API_KEY not set in environment variables.")
 
 # Langflow public or local endpoint
-LANGFLOW_URL = "http://localhost:7860/api/v1/run/cfe1ef2e-25c1-4225-8099-2ea71d418721"
+LANGFLOW_URL = "http://localhost:7861/api/v1/run/cfe1ef2e-25c1-4225-8099-2ea71d418721"
 
 # Input data structure
 class InputPrompt(BaseModel):
