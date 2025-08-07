@@ -7,4 +7,4 @@ services:
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
     envVars:
       - key: LANGFLOW_API_KEY
-        value: your_real_api_key_here
+        value: sk-s7MVeXQ4hXxG4kSkrV72eQgjIQXc8KSAPgcYBWn6DWg
